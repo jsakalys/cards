@@ -1,0 +1,33 @@
+
+div {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 16px;
+}
+
+#wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.card {
+	width: 200px;
+	height: 250px;
+	background-color: salmon;
+	position: relative;
+}
+
+.card-content {
+	padding: 5px;
+	position: absolute;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	bottom: 0px;
+	font-size: 12px;
+	color: white;
+	font-family: 'Helvetica';
+}
